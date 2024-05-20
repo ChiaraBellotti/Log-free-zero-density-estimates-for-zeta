@@ -33,8 +33,6 @@ T=3*pow(10,12)
 t2=exp(46.2)
 t3=exp(170.2)
 t4=exp(481958)
-T1=pow(10,13)
-sigma1=0.9935
 err=8.066394225e+8390
 
 #number of zeros in circle
