@@ -341,7 +341,7 @@ def FinalC(u,x,v,w):
     elif t >= t4:
         return fdiv(C4(u, x, v, w),condition4(u, x, v, w))
 
-#Output
+#Constants output
 
 print('Constant C:', FinalC(u,x,v,w))
 print('Constant B:', 2*x)
