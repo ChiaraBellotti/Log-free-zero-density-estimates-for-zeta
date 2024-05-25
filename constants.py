@@ -24,11 +24,11 @@ def latex_float(num, we):
 
 t = 3*power(10,12)
 tupp= exp(29)
-u=2.1022642
-x=6.8210225
-v=4.2615415
-w=0.4481428
-sigma=0.992
+u=2.1781287
+x=7.0798370
+v=4.4744028
+w=0.4808273
+sigma=0.9927
 T=3*pow(10,12)
 t2=exp(46.2)
 t3=exp(170.2)
@@ -131,7 +131,7 @@ def nu4(t):
 #estimate for Lemma 4.1 first factor d_4
 
 def Boundfirstfactor(u,x,v,w):
-    return 3.1*fdiv((u+v)*(power(fdiv(v,u),2)+fdiv(v,u)+1.7),(v-u)*(fdiv(v,u)-1))+fdiv(Psisquare(u, x, v, w),exp(power(t,u+v-x))*log(t))+fdiv(Psisquare(u, x, v, w),log(t))*(2+(x-(u+v))*log(t))
+    return 3.09*fdiv((u+v)*(1.301*(1+power(fdiv(v,u),2))+1.084*(fdiv(v,u)+1)-0.116),(v-u)*(fdiv(v,u)-1))+fdiv(Psisquare(u, x, v, w),exp(power(t,u+v-x))*log(t))+fdiv(Psisquare(u, x, v, w),log(t))*(2+(x-(u+v))*log(t))
 
 #stirling near zero
 integralfromgamma = lambda y: np.power(y,2-2*sigma)*exp(-y)
